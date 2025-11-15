@@ -1,0 +1,23 @@
+python-dotenv==1.0.0
+
+# Web scraping
+playwright==1.40.0
+beautifulsoup4==4.12.2
+
+# LLM
+anthropic==0.18.1
+
+# Database
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.23
+
+# Queue system (for later)
+celery==5.3.4
+redis==5.0.1
+
+# API (for later)
+fastapi==0.104.1
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
