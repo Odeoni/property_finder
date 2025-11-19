@@ -1,0 +1,37 @@
+Metadata-Version: 2.4
+Name: agentql
+Version: 1.17.0
+Summary: Tiny Fish AgentQL Python Client
+Project-URL: Homepage, https://agentql.com
+Project-URL: Repository, https://github.com/tinyfish-ai/agentql-client
+Project-URL: Documentation, https://docs.agentql.com
+Author-email: Tiny Fish <support@agentql.com>
+License: MIT
+License-File: LICENSE
+Keywords: ai,automation,playwright,testing,web-scraping
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP :: Browsers
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.9
+Requires-Dist: aiofiles>=23.0.0
+Requires-Dist: colorama<1.0.0,>=0.4.6
+Requires-Dist: httpx<1.0.0,>=0.23.0
+Requires-Dist: playwright>=1.0.0
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: pytest-asyncio>=0.21.0
+Requires-Dist: requests>=2.0.0
+Requires-Dist: tf-playwright-stealth<2.0.0,>=1.0.0
+Requires-Dist: typer>=0.7.0
+Requires-Dist: typing-extensions>=4.0.0
+Description-Content-Type: text/markdown
+
+# Tiny Fish AgentQL Python Client
+
+A Python client for Tiny Fish AgentQL - a new way to interact with the web.

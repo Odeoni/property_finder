@@ -1,0 +1,2 @@
+[console_scripts]
+agentql = agentql._cli._main:app

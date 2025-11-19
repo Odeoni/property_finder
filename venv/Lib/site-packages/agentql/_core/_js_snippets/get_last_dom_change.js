@@ -1,0 +1,3 @@
+// Returns a JavaScript snippet that gets the last DOM change timestamp from the local storage
+
+() => window.localStorage.getItem('lastDomChange');

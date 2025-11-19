@@ -1,0 +1,15 @@
+import os
+
+AGENTQL_SERVER_URL_ENV_VAR = "AGENTQL_SERVER_URL"
+DEFAULT_SERVER_URL = "https://api.agentql.com"
+SERVICE_URL = os.environ.get(AGENTQL_SERVER_URL_ENV_VAR, DEFAULT_SERVER_URL)
+GET_AGENTQL_ELEMENT_ENDPOINT = "/api/v2/query"
+GET_AGENTQL_DATA_ENDPOINT = "/api/v2/query-data"
+GET_QUERY_DOCUMENT_ENDPOINT = "/v1/query-document"
+QUERY_GENERATE_ENDPOINT = "/api/v2/queries/generate"
+VALIDATE_API_KEY_ENDPOINT = "/api/validate-api-key"
+CHECK_SERVER_STATUS_ENDPOINT = "/api/status"
+BROWSER_SESSIONS_ENDPOINT = "/v1/tetra/sessions"
+DEFAULT_RESPONSE_MODE = "fast"
+DEFAULT_REQUEST_ORIGIN = "sdk-playwright-python"
+X_REQUEST_ID = "X-Request-ID"
